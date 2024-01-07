@@ -3,7 +3,10 @@ name = "pca-pwa"
 version = "1.0.0"
 description = "simplified manner for insights and decision-making, by visualizing complex relationships with PCA web application"
 authors = ["Dany Mukesha <danymukesha@gmail.com>"]
+license = "MIT"
+homepage = "https://github.com/danymukesha/pca-pwa"
 readme = "README.md"
+keywords = ["pca", "danymukesha"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
