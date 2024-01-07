@@ -17,9 +17,8 @@ Here is the [usage](Usage.md)
 ### License
 This project is licensed under the MIT License.
 
-
 ### Credits
-Author: Dany Mukesha
+Author: MIT © [Dany Mukesha](https://danymukesha.github.io/)
 
 Email: danymukesha@gmail.com
 
