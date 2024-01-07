@@ -31,7 +31,7 @@ This project is licensed under the MIT License.
 Credits
 -------
 
-Author: Dany Mukesha
+Author: MIT © `Dany Mukesha <https://danymukesha.github.io/>`__
 
 Email: danymukesha@gmail.com
 
