@@ -15,6 +15,7 @@ from scipy.stats import zscore
 
 app = Flask(__name__)
 
+
 # Configure logging
 log_folder = 'logs'
 if not os.path.exists(log_folder):
@@ -24,18 +25,6 @@ log_file_path = os.path.join(log_folder, 'app.log')
 logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s [%(levelname)s] - %(message)s')
 
 def plot_pca(transformed_data, header, pca):
-    """PCA: Principal Component Analysis
-
-    Params:
-    transformed_data: array: training data
-    header: list: items
-    pca: array: select principal components
-
-    Usage:
-    >>> from pca import plot_pca
-    >>> plot_pca(transformed_data, header, pca)
-    
-    """
     # Set Matplotlib to use a non-interactive backend
     plt.switch_backend('agg')
 
@@ -88,6 +77,9 @@ def plot_pca(transformed_data, header, pca):
     img_base64 = base64.b64encode(img_buf.read()).decode('utf-8')
 
     return img_base64
+
+
+
 
 def save_results_to_folder(result, folder_path):
     # Create a folder with a unique identifier (timestamp)
@@ -177,4 +169,4 @@ def perform_pca():
 #            return render_template('index.html', error_message=error_message)
 
 if __name__ == '__main__':
-    app.run(debug=True, use_reloader=True)
+    app.run(debug=True, use_reloader=True, host='0.0.0.0', port=8082)
