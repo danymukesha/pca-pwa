@@ -6,7 +6,7 @@
 The user could easily obtain a pca plot without needing to configure or compile the application.
 
 ### Installation
-To install pca_pwa, you can use pip. Open your terminal and run:
+To install `pca_pwa`, you can use pip. Open your terminal and run:
 
 ```python
 pip install pca_pwa
@@ -22,4 +22,4 @@ Author: MIT © [Dany Mukesha](https://danymukesha.github.io/)
 
 Email: danymukesha@gmail.com
 
-Thank you for using ``pca_pwa`!
+Thank you for using `pca_pwa`!
