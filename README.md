@@ -12,7 +12,7 @@ To install `pca_pwa`, you can use pip. Open your terminal and run:
 pip install pca_pwa
 ```
 
-Here is the [Usage](Usage.md)
+Here is the [Usage](https://github.com/danymukesha/pca-pwa/blob/main/Usage.md)
 
 ### License
 This project is licensed under the MIT License.
