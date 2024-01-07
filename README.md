@@ -5,4 +5,22 @@
 - The purpose of the package is to offer a simple way of visualizing relatationships between items of any given dataset. 
 The user could easily obtain a pca plot without needing to configure or compile the application.
 
+### Installation
+To install pca_pwa, you can use pip. Open your terminal and run:
 
+```python
+pip install pca_pwa
+```
+
+Here is the [usage](Usage.md)
+
+### License
+This project is licensed under the MIT License.
+
+
+### Credits
+Author: Dany Mukesha
+
+Email: danymukesha@gmail.com
+
+Thank you for using pca_pwa!
