@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pca-pwa"
-version = "1.0.0"
+version = "1.0.3"
 description = "simplified manner for insights and decision-making, by visualizing complex relationships with PCA web application"
 authors = ["Dany Mukesha <danymukesha@gmail.com>"]
 license = "MIT"

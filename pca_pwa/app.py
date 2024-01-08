@@ -17,12 +17,13 @@ app = Flask(__name__)
 
 
 # Configure logging
-log_folder = 'logs'
+""" log_folder = 'logs'
 if not os.path.exists(log_folder):
     os.makedirs(log_folder)
 
 log_file_path = os.path.join(log_folder, 'app.log')
-logging.basicConfig(filename=log_file_path, level=logging.WARNING, format='%(asctime)s [%(levelname)s] - %(message)s')
+logging.basicConfig(filename=log_file_path, level=logging.CRITICAL, format='%(asctime)s [%(levelname)s] - %(message)s') 
+"""
 
 def plot_pca(transformed_data, header, pca):
     # Set Matplotlib to use a non-interactive backend
