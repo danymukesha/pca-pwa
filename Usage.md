@@ -19,7 +19,8 @@ python3.1 pca-pwa/app.y
 
 Open the url: http://127.0.0.1:8082
 
-![image](https://github.com/danymukesha/pca-pwa/assets/45208254/2dfa72e2-fad7-46f5-943a-d7a94feee67b)
+![image](https://github.com/danymukesha/pca-pwa/assets/45208254/03c32efa-3873-4173-9682-877c51aefdd6)
+
 
 Upload `xslx/slx` file 
 
