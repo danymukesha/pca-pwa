@@ -4,7 +4,7 @@ from flask import Flask
 from pca_pwa import app,  __version__
 
 def test_verion():
-	assert __version__ == '1.0.3'
+	assert __version__ == '1.0.4'
     
 class FlaskAppTestCase(unittest.TestCase):
     def setUp(self):

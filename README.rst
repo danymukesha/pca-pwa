@@ -21,7 +21,7 @@ To install ``pca_pwa``, you can use pip. Open your terminal and run:
 
    pip install pca_pwa
 
-Open ``Ipython`` or ``Jupyter Notebook``
+Open ``IPython`` or ``Jupyter Notebook``
 
 .. code:: python
 
@@ -42,7 +42,8 @@ Upload ``xslx/slx`` file (Excel)
 
 -  e.g.:
 
-   -  Click `here <>`__ to download the excel file
+   -  Click `here <tests/samples_file.xlsx>`__ to download the excel
+      file
 
       -  Items/Observations should be in rows
       -  Variables/Features should in columns

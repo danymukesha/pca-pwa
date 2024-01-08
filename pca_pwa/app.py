@@ -15,7 +15,6 @@ from scipy.stats import zscore
 
 app = Flask(__name__)
 
-
 # Configure logging
 """ log_folder = 'logs'
 if not os.path.exists(log_folder):
@@ -80,8 +79,6 @@ def plot_pca(transformed_data, header, pca):
     return img_base64
 
 
-
-
 def save_results_to_folder(result, folder_path):
     # Create a folder with a unique identifier (timestamp)
     if not os.path.exists(folder_path):
@@ -121,7 +118,6 @@ def perform_pca():
             error_message = "No selected file."
             return render_template('index.html', error_message=error_message)
 
- #       try:
         # Read Excel file into a pandas DataFrame
         df = pd.read_excel(file)
 
@@ -164,10 +160,6 @@ def perform_pca():
         logging.info(f"PCA analysis completed successfully. Results saved to: {folder_path}")
 
         return render_template('result.html', result=result)
-#        except Exception as e:
-#            error_message = f"Error processing the file: {e}"
-#            logging.error(f"Error processing the file: {e}")
-#            return render_template('index.html', error_message=error_message)
-
+    
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=True, host='0.0.0.0', port=8082)
