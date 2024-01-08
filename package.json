@@ -1,0 +1,22 @@
+{
+  "name": "pca-pwa",
+  "version": "1.0.3",
+  "description": "simplified manner for insights and decision-making by visualizing complex relationships with PCA web application",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danymukesha/pca-pwa.git"
+  },
+  "author": "Dany Mukesha",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danymukesha/pca-pwa/issues"
+  },
+  "homepage": "https://github.com/danymukesha/pca-pwa#readme"
+}
