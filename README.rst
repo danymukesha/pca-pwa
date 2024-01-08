@@ -33,7 +33,7 @@ Open ``IPython`` or ``Jupyter Notebook``
 
 Open the url: http://127.0.0.1:8082
 
-.. figure:: https://github.com/danymukesha/pca-pwa/assets/45208254/2dfa72e2-fad7-46f5-943a-d7a94feee67b
+.. figure:: https://github.com/danymukesha/pca-pwa/assets/45208254/03c32efa-3873-4173-9682-877c51aefdd6
    :alt: image
 
    image
@@ -42,8 +42,9 @@ Upload ``xslx/slx`` file (Excel)
 
 -  e.g.:
 
-   -  Click `here <tests/samples_file.xlsx>`__ to download the excel
-      file
+   -  Click
+      `here <https://github.com/danymukesha/pca-pwa/raw/main/tests/samples_file.xlsx>`__
+      to download the excel file
 
       -  Items/Observations should be in rows
       -  Variables/Features should in columns

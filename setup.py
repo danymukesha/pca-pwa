@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pca_pwa',
-    version='1.0.3',
+    version='1.0.5',
     description='A package for PCA analysis with Flask application',
     author='Dany Mukesha',
     author_email='danymukesha@gmail.com',
