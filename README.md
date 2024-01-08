@@ -27,7 +27,7 @@ Open the url: http://127.0.0.1:8082
 Upload `xslx/slx` file (Excel) 
 
 - e.g.:
-  - Click [here](tests/samples_file.xlsx) to download the excel file
+  - Click [here](https://github.com/danymukesha/pca-pwa/raw/main/tests/samples_file.xlsx) to download the excel file
     * Items/Observations should be in rows
     * Variables/Features should in columns
 
