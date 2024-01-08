@@ -15,13 +15,72 @@ The Purpose of the Package
 Installation
 ------------
 
-To install pca_pwa, you can use pip. Open your terminal and run:
+To install ``pca_pwa``, you can use pip. Open your terminal and run:
 
-.. code:: python
+.. code:: sh
 
    pip install pca_pwa
 
-Here is the `usage <Usage.md>`__
+Open ``Ipython`` or ``Jupyter Notebook``
+
+.. code:: python
+
+   >>> from pca_pwa import app
+   >>> app.app.run(debug=True, use_reloader=True, host='0.0.0.0', port=8082)
+   >>> # * Serving Flask app 'app'
+   >>> # * Debug mode: on
+   >>> # * Running on http://127.0.0.1:8082
+
+Open the url: http://127.0.0.1:8082
+
+.. figure:: https://github.com/danymukesha/pca-pwa/assets/45208254/2dfa72e2-fad7-46f5-943a-d7a94feee67b
+   :alt: image
+
+   image
+
+Upload ``xslx/slx`` file (Excel)
+
+-  e.g.:
+
+   -  Click `here <>`__ to download the excel file
+
+      -  Items/Observations should be in rows
+      -  Variables/Features should in columns
+
+Choose a method of imputation for missing values
+
+Then run the pca by clicking ``Perform PCA`` button.
+
+.. figure:: https://github.com/danymukesha/pca-pwa/assets/45208254/a25bf538-599e-4353-80e4-a26963e4d721
+   :alt: image
+
+   image
+
+--------------
+
+Otherwise you can use ``git clone``:
+
+Here is the
+`Usage <https://github.com/danymukesha/pca-pwa/blob/main/Usage.md>`__:
+
+Clone the github repository
+
+.. code:: git
+
+   git clone https://github.com/danymukesha/pca-pwa.git
+
+Run the app
+
+.. code:: sh
+
+   cd pca-pwa
+   python3.1 pca-pwa/app.y
+
+   # * Serving Flask app 'app'
+   # * Debug mode: on
+   # * Running on http://127.0.0.1:8082
+
+Open the url: http://127.0.0.1:8082
 
 License
 -------
@@ -35,4 +94,4 @@ Author: MIT © `Dany Mukesha <https://danymukesha.github.io/>`__
 
 Email: danymukesha@gmail.com
 
-Thank you for using pca_pwa!
+Thank you for using ``pca_pwa``!

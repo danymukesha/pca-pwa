@@ -22,7 +22,7 @@ if not os.path.exists(log_folder):
     os.makedirs(log_folder)
 
 log_file_path = os.path.join(log_folder, 'app.log')
-logging.basicConfig(filename=log_file_path, level=logging.INFO, format='%(asctime)s [%(levelname)s] - %(message)s')
+logging.basicConfig(filename=log_file_path, level=logging.WARNING, format='%(asctime)s [%(levelname)s] - %(message)s')
 
 def plot_pca(transformed_data, header, pca):
     # Set Matplotlib to use a non-interactive backend
@@ -60,7 +60,7 @@ def plot_pca(transformed_data, header, pca):
             texts.append(plt.text(pca_data['PC1'][i], pca_data['PC2'][i], sample, fontsize=8))
 
     # Adjust labels for better visibility with increased expand_points
-    adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red'), force_text=0.5, expand_points=(2.0, 2.0))
+    adjust_text(texts, arrowprops=dict(arrowstyle='->', color='red'), force_text=(0.5,0.5))
 
     # Move the legend outside the plot
     plt.legend(bbox_to_anchor=(1.05, 1), loc='upper left', title='Sample')
