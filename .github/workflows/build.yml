@@ -3,7 +3,7 @@ name: Build and Package
 on:
   push:
     branches:
-      - created
+      -main
 
 jobs:
   Make_GitHub_Release:
