@@ -1,6 +1,6 @@
 {
   "name": "@danymukesha/pca-pwa",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "simplified manner for insights and decision-making by visualizing complex relationships with PCA web application",
   "main": "index.js",
   "directories": {
