@@ -11,7 +11,7 @@ To install `pca_pwa`, you can use pip. Open your terminal and run:
 ```sh
 pip install pca_pwa
 ```
-Open `Ipython` or `Jupyter Notebook`
+Open `IPython` or `Jupyter Notebook`
 ```python
 >>> from pca_pwa import app
 >>> app.app.run(debug=True, use_reloader=True, host='0.0.0.0', port=8082)
@@ -27,7 +27,7 @@ Open the url: http://127.0.0.1:8082
 Upload `xslx/slx` file (Excel) 
 
 - e.g.:
-  - Click [here]() to download the excel file
+  - Click [here](tests/samples_file.xlsx) to download the excel file
     * Items/Observations should be in rows
     * Variables/Features should in columns
 
