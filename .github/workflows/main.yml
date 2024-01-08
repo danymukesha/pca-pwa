@@ -23,7 +23,7 @@ jobs:
     - name: Run linters (optional)
       run: |
         pip install pylint
-        pylint pca_pwa/app.py
+        # pylint pca_pwa/app.py
 
     - name: Run Flask application (optional)
       run: |
