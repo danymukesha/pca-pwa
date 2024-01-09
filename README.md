@@ -1,4 +1,7 @@
 # pca-pwa
+
+[![Python Tests](https://github.com/danymukesha/pca-pwa/actions/workflows/main.yml/badge.svg)](https://github.com/danymukesha/pca-pwa/actions/workflows/main.yml)
+
 `pca-pwa`, a simplified manner for insights and decision-making by visualizing complex relationships with PCA web application.
 
 ### The Purpose of the Package
