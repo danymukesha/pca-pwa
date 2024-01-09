@@ -25,7 +25,7 @@ jobs:
 
     - name: Bump version and create release
       run: |
-        bump2version --tag
+        bump2version --tag --new-version=0.1.1
         git push --follow-tags
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
