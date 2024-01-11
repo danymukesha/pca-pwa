@@ -1,6 +1,6 @@
 {
   "name": "@danymukesha/pca-pwa",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "simplified manner for insights and decision-making by visualizing complex relationships with PCA web application",
   "main": "index.js",
   "directories": {
@@ -23,6 +23,6 @@
     "@danymukesha:registry": "https://npm.pkg.github.com"
   },
   "keywords": [
-    "pca"
+    "pca" "danymukesha"
   ]
 }

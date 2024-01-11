@@ -4,14 +4,15 @@ from flask import Flask
 from pca_pwa import app,  __version__
 
 def test_verion():
+	# Check app version
 	assert __version__ == '1.0.5'
-    
+
 class FlaskAppTestCase(unittest.TestCase):
     def setUp(self):
         # Create a test client
         self.app = app.app.test_client()
         self.app.testing = True
-    
+
     def tearDown(self):
         pass
 
@@ -39,18 +40,18 @@ class FlaskAppTestCase(unittest.TestCase):
                     response = self.app.post('/perform_pca', data={'file': str(mock_file), 'imputation_method': 'mean'})
 
         self.assertEqual(response.status_code, 200)
-        # Add more assertions based on other expected behavior
+        # more assertions to be added based on other expected behavior
 
     def test_save_results_to_folder(self):        
 		# Extract data from the DataFrame
         original_data = [["A", 1, 2], ["B", 3, 4]]
         header = [row[0] for row in original_data]
         data_array = [row[1:] for row in original_data]
-        
+
         pca = app.PCA(n_components=2)
         transformed_data = pca.fit_transform(data_array)
         base64_image_string = app.plot_pca(transformed_data, header, pca)
-        
+
         # Mock the result and folder path
         result = {
             'original_data': [[1, 2], [3, 4]],
@@ -66,7 +67,7 @@ class FlaskAppTestCase(unittest.TestCase):
             mock_mkdtemp.return_value = folder_path
             app.save_results_to_folder(result, folder_path)
 
-        # Add assertions based on other expected behavior
+        # more assertions to be added based on other expected behavior
 
 if __name__ == '__main__':
     unittest.main()
